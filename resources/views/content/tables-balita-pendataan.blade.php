@@ -14,6 +14,11 @@
                     DataTables documentation</a>. --}}
             </p>
 
+            <a href="{{route('input-data-pendataan-balita')}}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                class="fas fa-download fa-sm text-white-50"></i> Input Data</a>
+            <br>
+            <br>
+
             <!-- DataTales Example -->
             <div class="card shadow mb-4">
                 <div class="card-header py-3">

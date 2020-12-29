@@ -1,6 +1,12 @@
 @extends('master.master')
 @section('title', 'Input Kader')
 @section('content')
+
+<a href="{{ route('table-kader') }}">
+    < Kembali ke Halaman Sebelumnya</a>
+    <br>
+    <br>
+
     <!-- Basic Card Example -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">

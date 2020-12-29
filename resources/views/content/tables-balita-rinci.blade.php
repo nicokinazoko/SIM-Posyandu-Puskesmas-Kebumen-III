@@ -3,8 +3,8 @@
 
 
 @section('content')
-    <a href="{{ route('home') }}">
-        < Kembali ke Halaman Utama
+    <a href="{{ route('table-balita') }}">
+        < Kembali ke Tabel Balita
     </a>
 
     <!-- Basic Card Example -->
@@ -14,7 +14,7 @@
         {{-- <a target="_blank" href="https://datatables.net">official
             DataTables documentation</a>. --}}
     </p>
-    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+    <a href="{{route('edit-balita')}}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
         class="fas fa-download fa-sm text-white-50"></i> Edit Data</a>
             <br>
             <br>

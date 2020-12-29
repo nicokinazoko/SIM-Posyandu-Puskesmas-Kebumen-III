@@ -5,9 +5,14 @@
     <h1 class="h3 mb-2 text-gray-800">Data Kader </h1>
 
     <p class="mb-4">Halaman ini berisi Data Kader yang telah dimasukkan ke dalam sistem
-        <a target="_blank" href="https://datatables.net">official
-            DataTables documentation</a>.
+        {{-- <a target="_blank" href="https://datatables.net">official
+            DataTables documentation</a>. --}}
     </p>
+
+    <a href="{{route('input-data-kader')}}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+        class="fas fa-download fa-sm text-white-50"></i> Input Data</a>
+    <br>
+    <br>
 
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
@@ -23,120 +28,44 @@
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <thead>
                             <tr>
-                                <th>NIK</th>
-                                <th>Nama Balita</th>
-                                <th>Jenis Kelamin</th>
+                                <th>No</th>
+                                <th>Nama Kader</th>
+                                <th>Tempat</th>
                                 <th>Tanggal Lahir</th>
-                                <th>Nama Orang Tua</th>
-                                <th>Desa</th>
-                                <th>Posyandu</th>
                                 <th>Alamat</th>
-                                <th>Aksi</th>
+                                <th>Nama Posyandu</th>
+                                <th>Rekam Medis</th>
                             </tr>
                         </thead>
                         <tfoot>
                             <tr>
-                                <th>NIK</th>
-                                <th>Nama Balita</th>
-                                <th>Jenis Kelamin</th>
+                                <th>No</th>
+                                <th>Nama Kader</th>
+                                <th>Tempat</th>
                                 <th>Tanggal Lahir</th>
-                                <th>Nama Orang Tua</th>
-                                <th>Desa/Kelurahan</th>
-                                <th>Posyandu</th>
                                 <th>Alamat</th>
-                                <th>Aksi</th>
+                                <th>Nama Posyandu</th>
+                                <th>Rekam Medis</th>
                             </tr>
                         </tfoot>
                         <tbody>
                             <tr>
-                                <th>3305120211150003</th>
-                                <th>AFFAN NUR MAJIB</th>
-                                <th>Laki-Laki</th>
-                                <th>02/11/2015</th>
-                                <th>SIGIT SUSANTO</th>
-                                <th>GEMEKSEKTI</th>
-                                <th>Sumelang</th>
-                                <th>SUMELANG</th>
-                                <th>
-                                    <a href="#" class="btn btn-danger btn-circle btn-sm">
-                                        <i class="fas fa-trash"></i>
-                                    </a>
-                                </th>
+                                <th>1</th>
+                                <th>setiyaningsih</th>
+                                <th></th>
+                                <th>13/01/1986</th>
+                                <th>jemur, 03/01</th>
+                                <th>balita widodo</th>
+                                <th></th>
                             </tr>
                             <tr>
-                                <th>3305122212150004 </th>
-                                <th>ZAYYAN FAQIH RABBANI</th>
-                                <th>Laki-Laki</th>
-                                <th>22/12/2015</th>
-                                <th>SURAHMAN</th>
-                                <th>GEMEKSEKTI</th>
-                                <th>Sumelang</th>
-                                <th>SUMELANG</th>
-                                <th>
-                                    <a href="#" class="btn btn-danger btn-circle btn-sm">
-                                        <i class="fas fa-trash"></i>
-                                    </a>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>3305125909150003</th>
-                                <th>AQILA RAJENDRA</th>
-                                <th>Laki-Laki</th>
-                                <th>19/09/2015</th>
-                                <th>SUPRIYANTO</th>
-                                <th>GEMEKSEKTI</th>
-                                <th>Tanuraksan I</th>
-                                <th>GEMEKSEKTI</th>
-                                <th>
-                                    <a href="#" class="btn btn-danger btn-circle btn-sm">
-                                        <i class="fas fa-trash"></i>
-                                    </a>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>3305126506160005</th>
-                                <th>AZIZAH SALSABILA R</th>
-                                <th>Perempuan</th>
-                                <th>25/06/2016</th>
-                                <th>IMRON MUZAKI</th>
-                                <th>GEMEKSEKTI</th>
-                                <th>Tanuraksan I</th>
-                                <th>Gemeksekti</th>
-                                <th>
-                                    <a href="#" class="btn btn-danger btn-circle btn-sm">
-                                        <i class="fas fa-trash"></i>
-                                    </a>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>3305121010170002</th>
-                                <th>SYARIF ADNAN</th>
-                                <th>Laki-Laki</th>
-                                <th>10/10/2017</th>
-                                <th>ISWANI ULFAH</th>
-                                <th>JEMUR</th>
-                                <th>WIDODO</th>
-                                <th>JEMUR</th>
-                                <th>
-                                    <a href="#" class="btn btn-danger btn-circle btn-sm">
-                                        <i class="fas fa-trash"></i>
-                                    </a>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>330512551150002</th>
-                                <th>NOVITA ANGGUN A</th>
-                                <th>Perempuan</th>
-                                <th>15/11/2015</th>
-                                <th>NUR BUDIYATI</th>
-                                <th>JEMUR</th>
-                                <th>WIDODO</th>
-                                <th>JEMUR</th>
-                                <th>
-                                    <a href="#" class="btn btn-danger btn-circle btn-sm">
-                                        <i class="fas fa-trash"></i>
-                                    </a>
-                                </th>
+                                <th>2</th>
+                                <th>siti aminah</th>
+                                <th></th>
+                                <th>20/05/1981</th>
+                                <th>jemur, 02/01</th>
+                                <th>balita widodo</th>
+                                <th></th>
                             </tr>
                         </tbody>
                     </table>

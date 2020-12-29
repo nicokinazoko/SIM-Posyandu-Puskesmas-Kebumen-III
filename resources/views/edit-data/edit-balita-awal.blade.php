@@ -1,6 +1,11 @@
 @extends('master.master')
 @section('title', 'Edit Balita')
 @section('content')
+<a href="{{ route('table-balita-rinci') }}">
+    < Kembali ke Halaman Sebelumnya
+</a>
+<br>
+<br>
     <!-- Basic Card Example -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">

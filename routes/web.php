@@ -46,7 +46,7 @@ Route::get('/utilities-color', [ControllerView::class,'utilities_color'])->name(
 Route::get('/input-data-kader', [ControllerView::class,'input_data_kader'])->name('input-data-kader');
 Route::get('/input-data-balita', [ControllerView::class,'input_data_balita'])->name('input-data-balita');
 Route::get('/input-data-imunisasi', [ControllerView::class,'input_data_imunisasi'])->name('input-data-imunisasi');
-Route::get('/input-data-pendataan-balita', [ControllerView::class,'input_data_pendataan-balita'])->name('input-data-pendataan-balita');
+Route::get('/input-data-pendataan-balita', [ControllerView::class,'input_data_pendataan_balita'])->name('input-data-pendataan-balita');
 
 Route::get('/edit-balita', [ControllerView::class,'edit_data_balita'])->name('edit-balita');
 Route::get('/edit-kader', [ControllerView::class,'edit_data_kader'])->name('edit-kader');
